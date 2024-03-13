@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: gray;
+}
+
+.placeholder-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 1;
+}
+
+.fade-in-container {
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+    -webkit-transition: opacity 1.2s ease-in-out;
+    -moz-transition: opacity 1.2s ease-in-out;
+    -ms-transition: opacity 1.2s ease-in-out;
+    -o-transition: opacity 1.2s ease-in-out;
+}
+
+.fade-in-container.fade-in {
+    opacity: 1;
+}
+
+.logo-fade-in-div {
+    opacity: 0;
+    margin-left: 20%;
+}
+
+.logo-fade-in-div.title-fade-in { /* fade logo in */
+    opacity: 1;
+    margin-left: 20%;
+    transition: opacity 1.2s ease-in-out;
+    -webkit-transition: opacity 1.2s ease-in-out;
+    -moz-transition: opacity 1.2s ease-in-out;
+    -ms-transition: opacity 1.2s ease-in-out;
+    -o-transition: opacity 1.2s ease-in-out;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.logo-fade-in-div.shift-logo-left {  /* shift luh logo to the left */
+    transform: translateX(-10%);
+    transition: transform 2s ease-out;
+    -webkit-transition: transform 2s ease-out;
+    -moz-transition: transform 2s ease-out;
+    -ms-transition: transform 2s ease-out;
+    -o-transition: transform 2s ease-out;
+    -webkit-transform: translateX(-10%);
+    -moz-transform: translateX(-10%);
+    -ms-transform: translateX(-10%);
+    -o-transform: translateX(-10%);
+}
+
+.team-info-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.team-number,
+.team-name {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    font-size: 200%;
+}
+
+
+
+
+
+
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events:none;
+}
+
+
+.dropdown-menu {
+    align-self: center;
+}
+
+.nav-item {
+    padding-left: 15px;
+    font-weight: bolder;
+    padding-right: 15px;
+    color: white;
+}
+
+.team-num-home {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.logo-on-navbar {
+    width: 75px;
+    padding-right: 20px;
+    padding-left:0px;
+}
+
+.center-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+  }
+
+.logo-on-title {
+    width: 20%;
+}
+
