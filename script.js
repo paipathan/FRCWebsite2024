@@ -1,32 +1,35 @@
-document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function () {
 
-    setTimeout(function(){
-        document.querySelector('.logo-fade-in-div').classList.add('title-fade-in');
-        console.log('faded in')
         setTimeout(function(){
-            console.log('sliding left...')
-            document.querySelector('.logo-fade-in-div').classList.add('shift-logo-left');
+            document.querySelector('.center-title').classList.add('fade-in-logo');
+            console.log('faded in')
             setTimeout(function(){
-                document.querySelector('.team-number').classList.remove('hidden');
-                document.querySelector('.team-name').classList.remove('hidden');
-                console.log('show text')
+                document.querySelector('.center-title').classList.add('shift-left');
+                console.log('sliding left...')
+                setTimeout(function(){
+                    document.querySelector('.team-number').classList.add('fade-in-text');
+                    setTimeout(function() {
+                    document.querySelector('.team-name').classList.add('fade-in-text');
+                    document.querySelector('.team-quote').classList.add('fade-in-text');
+                    console.log('show number, name, quote')
+
+                    }, 500)
+                }, 1000)
             }, 1000)
-        }, 1000)
-    }, 1000)
+        }, 500)
 
-});
+    });
 
-$(function(){
-    $(".dropdown").hover(
-            function() {
-                $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
-                $(this).toggleClass('open');
-                $('b', this).toggleClass("caret caret-up");
-            },
-            function() {
-                $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
-                $(this).toggleClass('open');
-                $('b', this).toggleClass("caret caret-up");
-            });
-    })
+document.querySelectorAll('.bottom-image').addEventListener("DOMContentLoaded", function() {
+    console.log('images loaded')
+})
 
+
+$('.dropdown').on('show.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+  });
+
+  // Add slideUp animation to Bootstrap dropdown when collapsing.
+  $('.dropdown').on('hide.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+  });
