@@ -1,8 +1,7 @@
-MDB5
-Version: PRO 7.2.0
+Prototypes 2024 Website!
 
-Documentation:
-https://mdbootstrap.com/docs/standard/
+If you have any questions, suggestions, or anything you'd like to add at all to the website lmk @ abhay5156 on discord!
 
-Contact:
-contact@mdbootstrap.com
+2854 WE DO MORE!
+WE'RE COUGARS AND WEEE ROAR!
+
