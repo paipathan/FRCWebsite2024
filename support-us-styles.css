@@ -27,6 +27,18 @@ body, html {
     color: white;
 }
 
+.ways-to-sponsor{
+    width:80vh;
+    margin:auto;
+}
+
+.ways-to-sponsor-img{
+    width: 20vh;
+}
+
+.sponsor-level{
+    margin:1%;
+}
 
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
@@ -99,6 +111,23 @@ body, html {
 .opt-text {
     text-align: center;
     font-size: 3vh;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
 
+td{
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-optical-sizing: auto;
+}
+
+th{
+    font-weight: 600;
+}
+
+.card-title{
+    font-family: "Sofia Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
