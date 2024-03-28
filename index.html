@@ -1,85 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index-styles.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap" rel="stylesheet">
-  <title>2854 Prototypes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+  <title>Home | 2854 Prototypes</title>
 
   <link rel="icon" href="cougarheadlogo.png"></link>
 </head>
-
-<body>
-
+<body style="background-color: black;">
   <div class="landing-page">
-
     <div class="video-container">
       <video autoplay muted loop class="background-video">
         <source src="sfr-2024vid.mp4" type="video/mp4">
       </video>
       <div class="video-overlay"></div>
-      </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary inter" style="background-color: black;">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <a href="#" class="navbar-brand"> <img class="logo-on-navbar"src="old-logo.png" alt=""> </a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Team
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="officers.html">Officers</a></li>
+              <li><a class="dropdown-item" href="mentors.html">Mentors</a></li>
+              <li><a class="dropdown-item" href="awards.html">Awards</a></li>
+              <li><a class="dropdown-item" href="history.html">Our History</a></li>
+            </ul>
+          </li>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Outreach
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="our-mission.html">Our mission</a></li>
+              <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="#">What we did</a></li>
+            </ul>
+          </li>
 
-        <div class="collapse navbar-collapse" id="navbarSuppo rtedContent">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Resources
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">2024 Crescendo</a></li>
+              <li><a class="dropdown-item" href="strategies.html">Strategies</a></li>
+              <li><a class="dropdown-item" href="documentation.html">Documentation</a></li>
+            </ul>
+          </li>
 
-          <ul class="navbar-nav ml-auto">
-            <a href="#"> <img class="logo-on-navbar"src="old-logo.png" alt=""> </a>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Our Team
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Officers</a></li>
-                <li><a class="dropdown-item" href="#">Mentors</a></li>
-                <li><a class="dropdown-item" href="#">Awards</a></li>
-                <li><a class="dropdown-item" href="#">Our History</a></li>
-              </ul>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="contact.html">Contact Us</a>
+          </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Outreach
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Our mission</a></li>
-                <li><a class="dropdown-item" href="#">Blog</a></li>
-                <li><a class="dropdown-item" href="#">What we did</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Resources
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">2024 Crescendo</a></li>
-                <li><a class="dropdown-item" href="#">Strategies</a></li>
-                <li><a class="dropdown-item" href="#">Documentation</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" aria-disabled="true" href="contact.html">Contact Us</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link" aria-disabled="true" href="supportus.html">Support Us</a>
-            </li>
-
-
-          </ul>
-
+          <li class="nav-item dropdown">
+            <a class="nav-link" aria-disabled="true" href="supportus.html">Support Us</a>
+          </li>
+        </ul>
       </div>
     </nav>
-
-
+    <!-- end navbar-->
     <div class="center-title">
       <img class="logo-on-title" src="old-logo.png" alt="">
       <div class="team-info-title">
@@ -88,8 +81,6 @@
         <h1 class="team-quote angkor-regular">"Prototyping the future."</h1>
       </div>
     </div>
-
-
   </div>
 
   <div class="landing-description-container">
@@ -102,7 +93,7 @@
         Join us as we embark on a journey to shape the future through cutting-edge robotics and unwavering dedication to progress.</p>
     </div>
 
-    <div class="bottom-image-container">
+    <div class="bottom-image-container container-fluid">
       <img class="bottom-image" src="pitwork.JPG">
       <img class="bottom-image" src="hang.JPG">
       <img class="bottom-image" src="2854boards.JPG">
@@ -112,7 +103,6 @@
 
 
   <div class="sponsor-section-container">
-
       <div class="landing-sponsors-header">
         <h1 class="contact-us-text">SPONSORS</h1>
       </div>
@@ -149,7 +139,7 @@
   </div>
   </div>
 
-
+  <!-- Footer -->
   <div class="footer">
     <p class="ev-robotics-footer">EVHS Robotics</p>
     <p class="evhs-footer">Evergreen Valley High School</p>
