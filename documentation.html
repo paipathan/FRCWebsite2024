@@ -21,19 +21,15 @@
   </head>
   <body>
     <div id="nav"></div>
-    <!-- Footer -->
-    <div class="footer">
-      <p class="ev-robotics-footer">EVHS Robotics</p>
-      <p class="evhs-footer">Evergreen Valley High School</p>
-      <p class="address-footer">3300 Quimby Road</p>
-      <p class="city-state-zip-footer">San Jose, CA 95148</p>
-      <a class="email-footer" href="mailto:#">evhsrobotics2854@gmail.com</a>
-    </div>
+    
+    <div id="footer"></div>
 
     <script>
-      console.log("loading navbar");
        $(function() {
           $("#nav").load("navbar.html");
+       });
+       $(function() {
+          $("#footer").load("footer.html");
        });
      </script>
   </body>
