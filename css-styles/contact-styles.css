@@ -11,7 +11,7 @@
 }
 
 .contact-us-header {
-    background-image: url('collage-title.png');
+    background-image: url('../media/collage-title.png');
     color: white;
     text-align: center;
     padding: 50px 0;
@@ -38,7 +38,7 @@
   }
 
   .contact-us-header {
-    background-image: url('collage-title.png');
+    background-image: url('../media/collage-title.png');
     color: white;
     text-align: center;
     /*padding: 50px 0;*/

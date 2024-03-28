@@ -31,7 +31,7 @@ p{
 }
 
 .title-container {
-    background-image: url('group-photo2.jpg');
+    background-image: url('../media/group-photo2.jpg');
     background-color: white;
     height: 93vh;
     text-align: center;
@@ -93,7 +93,7 @@ p{
 }
 
 .logo-on-navbar:hover {
-    background-image: url('Media\old-logo-blue.png');
+    background-image: url('../media/old-logo-blue.png');
 }
 
 /* FOOTER STYLES */

@@ -231,7 +231,7 @@
 
 
 .landing-sponsors-header {
-    background-image: url(collage-title.png);
+    background-image: url(../media/collage-title.png);
     color: white;
     text-align: center;
     padding: 3%;
@@ -281,8 +281,8 @@
     color: black !important;
 }
 
-.carousel-control-prev-icon {background-image: url(arrow-left-solid.svg);}
-.carousel-control-next-icon {background-image: url(arrow-right-solid.svg);}
+.carousel-control-prev-icon {background-image: url(../media/arrow-left-solid.svg);}
+.carousel-control-next-icon {background-image: url(../media/arrow-right-solid.svg);}
 
 
 
