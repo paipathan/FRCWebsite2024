@@ -1,11 +1,7 @@
-.officers{
-    width:65vw;
+.officers, .leads{
+    width:55vw;
     margin:auto;
-}
-
-.leads{
-    width:75vw;
-    margin:auto;
+    padding:15px;
 }
 
 h2{
@@ -14,4 +10,16 @@ h2{
     font-style: normal;
     text-align: center;
     font-size: 3rem;
+}
+
+.officer-img{
+    border:1px solid rgba(0, 0, 0, .125);
+}
+
+.officer-text{
+    margin:1vh;
+}
+
+.officer-heading{
+    margin-top:1vh;
 }

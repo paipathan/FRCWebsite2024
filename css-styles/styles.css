@@ -19,6 +19,12 @@ p{
     font-weight: 500;
     font-style: normal;
     text-align: center;
+    color: #2294a8;
+}
+
+.text-body-secondary{
+    color:rgba(33, 29, 25, 0.75);
+    text-align:center;
 }
 
 /* TITLE STYLES*/

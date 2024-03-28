@@ -11,6 +11,7 @@ body, html {
 
 .ways-to-sponsor-img{
     width: 20vh;
+    border-right:1px solid rgba(0, 0, 0, .125);
 }
 
 .sponsor-level{
