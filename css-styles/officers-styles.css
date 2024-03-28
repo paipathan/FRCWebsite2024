@@ -1,0 +1,17 @@
+.officers{
+    width:65vw;
+    margin:auto;
+}
+
+.leads{
+    width:75vw;
+    margin:auto;
+}
+
+h2{
+    font-family: "Gajraj One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 3rem;
+}

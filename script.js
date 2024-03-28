@@ -1,4 +1,4 @@
-    document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
         setTimeout(function(){
             document.querySelector('.center-title').classList.add('fade-in-logo');
             console.log('faded in')
