@@ -28,8 +28,10 @@
     <p class="mentor-text">Stuff about the roles mentors have on our team and stuff.</p>
     <div class="container-fluid main-mentor">
         <h2 class="main-mentor-heading sofia-sans" style="font-size: 8vh; color:#2294a8;">Roy</h2>
-        <img class="main-mentor-picture" src="media/roy.JPG">
-        <p class="main-mentor-text">Roy is the senior mentor at 2854 robotics. Throughout his 10 years of mentorship,  he has helped students out with drilling, riveting, stapling, mounting, and screwing things together. Roy has a special place in the heart of 2854, because of his sheer commitment to the club. No matter what situation, he always provides wise insight to the task at hand. He is the oil that keeps the gears of 2854 running. As a collective, 2854 appreciates Roy wholeheartedly, because of the role he plays in changing the future, one prototype at a time.</p>
+        <img class="main-mentor-picture" src="media/main-mentor.JPG">
+        <p class="main-mentor-text">
+            <div id="mentor"></div>
+        </p>
     </div>
     <div class="container-fluid" style="margin-top:5vh; padding:5vh;">
         <h2 class="gajraj-one-regular"  style="text-align: center;">OTHER MENTORS</h2>
@@ -63,6 +65,9 @@
        });
        $(function() {
           $("#footer").load("footer.html");
+       });
+       $(function() {
+          $("#mentor").load("texts/main-mentor.html");
        });
      </script>
   </body>

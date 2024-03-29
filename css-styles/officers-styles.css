@@ -23,3 +23,12 @@ h2{
 .officer-heading{
     margin-top:1vh;
 }
+
+.officer, .lead{
+    margin-top:8vh;
+    align-items: center;
+}
+
+.col-9{
+    padding:15px;
+}
