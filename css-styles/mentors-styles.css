@@ -28,6 +28,7 @@
 .other-mentor-pic{
     width:20%;
     border-radius: 50%;
+    border:1px solid grey;
 }
 
 .other-mentor{
