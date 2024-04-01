@@ -1,0 +1,48 @@
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    align-self: center;
+    background-color: #fff;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    position: absolute;
+    align-self: center;
+    background-color: #fff;
+}
+
+.dropdown>.dropdown-toggle:active {
+      pointer-events:none;
+}
+
+
+
+.nav-link {
+    color: white;
+}
+
+.nav-item {
+    padding-left: 1%;
+    font-weight: bolder;
+    padding-right: 1%;
+    white-space: nowrap;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #008B8B;
+}
+
+.team-num-navbar {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.logo-on-navbar {
+    width: 7%;
+    padding-right: 1%;
+    padding-left:0%;
+}
+

@@ -1,0 +1,71 @@
+body, html {
+    background-color: #151719 !important;
+}
+
+.outreach-title-container {
+    background-color: #151719;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.text-container {
+    text-align: left;
+    padding-right: 5%;
+}
+
+.outreach-heading {
+    font-size: 700%;
+    color: white;
+}
+
+.team-name {
+    font-size: 400%;
+    color: white;
+}
+
+.team-subtext {
+    font-size: 115%;
+    color: #9ca9b3;
+    /* padding-right: 45vw; */
+}
+.image-gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.image-gallery img {
+    transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    position: relative; /* Ensure proper stacking context */
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    box-shadow: 0 0 15px #008B8B;
+    outline: 2px solid #008B8B;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
