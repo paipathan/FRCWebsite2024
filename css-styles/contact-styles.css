@@ -64,3 +64,11 @@ label, input{
   font-size:2rem;
   margin-left:2vw;
 }
+
+.social-link{
+  color:black;
+}
+
+.social-link:hover{
+  color:#2294a8;
+}

@@ -1,0 +1,15 @@
+.robot-img{
+    width:20vw;
+    margin:auto;
+    border-radius:15px;
+    border: 1px solid grey;
+}
+
+.container-md{
+    margin:auto;
+    width:75vw;
+}
+
+li{
+    margin: auto;
+}

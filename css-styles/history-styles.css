@@ -1,0 +1,29 @@
+.container-md{
+    width:75vw;
+    margin:auto;
+}
+
+.history-img{
+    width: 30vw;
+    height: auto;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+.btn{
+    margin:auto;
+    color:white;
+}
+
+h4{
+    font-family: "Sofia Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.competitions > li{
+    list-style-type: none;
+}
